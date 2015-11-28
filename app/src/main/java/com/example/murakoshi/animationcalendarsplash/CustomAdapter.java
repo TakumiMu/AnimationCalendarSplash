@@ -1,8 +1,6 @@
 package com.example.murakoshi.animationcalendarsplash;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -58,12 +56,6 @@ public class CustomAdapter extends ArrayAdapter<String> {
       holder.labelText.setText(str);
     }
 
-    // 行毎に背景色を変える
-    /*if(position%2==0){
-      holder.labelText.setBackgroundColor(Color.parseColor("#14beb6"));
-    }else{
-      holder.labelText.setBackgroundColor(Color.parseColor("#4B8EDA"));
-    }*/
 
     if(position > mLastAnimated) {
       // XMLで定義したアニメーションを読み込む

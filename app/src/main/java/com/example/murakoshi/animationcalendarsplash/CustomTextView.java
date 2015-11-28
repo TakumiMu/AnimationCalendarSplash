@@ -10,7 +10,7 @@ import android.widget.TextView;
  * Created by murakoshi on 15/11/18.
  */
 public class CustomTextView extends TextView{
-    private String mFont = "Let's go Digital Regular.ttf";
+    private String mFont = "";
 
     public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);

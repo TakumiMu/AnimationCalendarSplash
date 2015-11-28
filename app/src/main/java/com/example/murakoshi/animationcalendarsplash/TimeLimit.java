@@ -184,7 +184,7 @@ public class TimeLimit extends AppCompatActivity implements View.OnClickListener
                                     alarmStartTime,
                                     alarmIntent
                             );
-                            Toast.makeText(TimeLimit.this, "通知をセットしました" + alarmTime, Toast.LENGTH_SHORT).show();
+                            Toast.makeText(TimeLimit.this, "通知をセットしました", Toast.LENGTH_SHORT).show();
                             notificationId++;
                         }
                         else{

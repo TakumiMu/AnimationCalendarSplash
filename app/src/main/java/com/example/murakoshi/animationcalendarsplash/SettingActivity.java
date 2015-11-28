@@ -31,14 +31,6 @@ public class SettingActivity extends AppCompatActivity {
             // クリック時に呼ばれるメソッド
             @Override
             public void onClick(View view) {
-                /*
-                SharedPreferences data_account = getSharedPreferences("DataSave", Context.MODE_PRIVATE);
-                SharedPreferences.Editor editor = data_account.edit();
-                editor.putString("AccountName", null);
-                editor.apply();
-
-                Toast.makeText(SettingActivity.this, "リセットされました！", Toast.LENGTH_LONG).show();
-                */
 
                 Intent intent;
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {

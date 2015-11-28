@@ -35,7 +35,6 @@ public class StartActivity extends AppCompatActivity {
         if(!TextUtils.isEmpty(name)) {
             Log.d("bbbbb", name);
         }
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_start);
 
         Button getAccountButton = (Button)findViewById(R.id.button_segue);
