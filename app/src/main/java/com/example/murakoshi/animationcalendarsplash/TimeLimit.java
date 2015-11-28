@@ -8,12 +8,9 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.preference.DialogPreference;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,14 +20,9 @@ import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 /**
  * Created by murakoshi on 15/11/09.
