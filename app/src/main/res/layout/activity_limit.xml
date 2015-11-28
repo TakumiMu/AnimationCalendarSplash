@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontsample="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="#010101"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="あと..."
+            android:textColor= "#feff1e"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#010101"
+        android:paddingBottom="30dp">
+
+
+            <TextView
+                android:id="@+id/timeLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor= "#feff1e"
+                android:textSize="50sp"
+                android:format='%s'
+            />
+
+        <!--
+        <com.example.murakoshi.animationcalendarsplash.CustomTextView
+                android:id="@+id/timeLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor= "#feff1e"
+                android:textSize="70sp"
+                android:format='%s'
+                style="?android:attr/textAppearanceLarge"
+                fontsample:font="Let's go Digital Regular.ttf"/>
+                -->
+    </RelativeLayout>
+
+　　<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="スケジュール"
+            android:textStyle=""
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="30sp"
+            android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+  -->
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/card_view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="2dp"
+
+        app:cardUseCompatPadding="true"
+        android:layout_marginTop="8dp">
+
+        <!-- カードに載せる情報 -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="スケジュール"
+                android:textStyle=""
+                android:textSize="24sp"
+                android:gravity="center"
+                android:paddingTop="24dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:paddingBottom="24dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+        <Button
+            android:elevation="2dp"
+            android:id="@+id/btnLeft"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="＜＜"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+        </Button>
+        <Button
+            android:elevation="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="お知らせ"
+            android:id="@+id/alert"
+            android:onClick="showNumberPicker"
+            android:layout_toLeftOf="@+id/btnRight"
+            android:layout_toRightOf="@+id/btnLeft"/>
+        <Button
+            android:elevation="2dp"
+            android:id="@+id/btnRight"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="＞＞"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
+        </Button>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

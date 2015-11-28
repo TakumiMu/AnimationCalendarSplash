@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimationCalendarSplash</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">アカウントの変更</string>
+    <string name="action_refresh">refresh</string>
+    <string name="app_name_main">スケジュール</string>
+    <string name="app_name_setting">設定</string>
+    <string name="app_name_">refresh</string>
+</resources>
