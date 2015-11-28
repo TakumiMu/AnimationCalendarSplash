@@ -2,18 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/debug/classes-49154483cf512e0d4e9df4dc0c67c822b5b3dba2.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-3ea22112fa5bf179f813abc1e606039b24115c58.jar" />
     </item>
     <item
         jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
-        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/debug/classes-92ebfd92def417c63a2903dc4ee2d794b0c7b55c.jar" />
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/classes-92ebfd92def417c63a2903dc4ee2d794b0c7b55c.jar" />
+    </item>
+    <item
+        jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/classes-6f25076d9a0dee93f127fdcbd0dca5ed9c03b51a.jar" />
+    </item>
+    <item
+        jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/classes-e7764e8865bccb3468334b7c5fcbc8e036295544.jar" />
+    </item>
+    <item
+        jar="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/classes-49154483cf512e0d4e9df4dc0c67c822b5b3dba2.jar" />
+    </item>
+    <item
+        jar="/Users/murakoshi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/murakoshi/AndroidStudioProjects/MyApplication/AnimationCalendarSplash/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-0e18c8435fafcdf2a3e079356f23c3f9a1ba22c3.jar" />
     </item>
 
 </items>

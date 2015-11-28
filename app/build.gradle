@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "tasuketai.conf_java.gr.jp"
+        applicationId "jp.gr.conf_java.tasuketai"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
